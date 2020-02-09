@@ -1,0 +1,26 @@
+Pointer and Addresses
+-ภาษาCสามารถเข้าถึงและจัดการหน่วยความจำได้โดยตรง
+-Pointer เป็นตัวแปรใช้เก็บตำแหน่งในหน่วยความจำ
+Pointer Operators
+-& เรียกว่า address Operators
+-* เรียกว่า dereferencing operators 
+การจำลองการเรียกฟังก์ชันแบบ Call by Reference
+-โดยทั่วไปแบ่งออกเป็น2ลักษณะ คือ call by value และ call by reference
+หลังจากใช้ const กับ pointers
+-ข้อควรระวัง การใช้ const ร่วมกับ pointer ในบางระบบอาจจะไม่เป็นไปตามที่ ANSI C กำหนดไว้
+นิพจน์ใน pointer และการใช้ตัวดำเนินการคณิตศาสตร์กับ pointer
+-นิพจน์ทางคณิตศาสตร์
+-นิพจน์ในการกำหนดค่า
+-นิพจน์ในการเปรียบเทียบ
+-หากแต่ว่า ไม่ใช่ทุกตัวดำเนินการที่ใช้ในนิพจน์จะสามารถใช้ร่วมกับ pointer ได้ทั้งหมด
+การใช้ pointer อ้างไปที่ฟังก์ชัน 
+การจองหน่วยความจำ
+-การใช้ malloc()
+-การใช้ fee()
+-ตระกูลฟังก์ชันการจองพื้นที่
+    #include <stdlib.h>
+
+    void *malloc(size_t n);
+    void *calloc(size_t n, size_t size);
+    void *realloc(void *ptr, size_t size);
+    void free(void *ptr);

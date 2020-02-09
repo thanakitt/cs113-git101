@@ -1,0 +1,26 @@
+ืVariable names
+Data Types and Sizes
+-รับจำนวนเต็ม
+-รับจำนวนจริง
+shortใช้กับจำนวนเต็ม longเพิ่มพื้นที่เก็บข้อมูล
+signedใช้เก็บค่าตัวแปรที่มีเครื่องหมาย unsignedใช้เก็บค่าเฉพาะจำนวนเต็มบวก
+sizeofใช้ตรวจสอบขนาดตัวแปรและประเภทข้อมูล
+voidใช้กำหนดตัวแปรที่ไม่มีประเภทข้อมูล
+constants
+่-ค่าคงที่จำนวนเต็ม
+-ค่าคงที่จำนวนจริง
+-ค่าคงที่เลขฐาน2,8,16
+-ค่าคงที่ตัวอักษร
+-ค่าคงที่สตริง
+-ประกาศตัวแปร
+ประกาศตัวแปร
+-printf() and puts()
+-Charactor Input and Output
+Arithmetic Operators
+Relational Operators and Logical Operators
+Types Conversion
+Increment and Decrement Operators
+Bitwise Operators
+Assignment Operators
+Conditional Expression
+Array Introduction

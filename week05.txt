@@ -1,0 +1,17 @@
+Scope Rules 
+-Local Variables
+-Global Variables
+-Storages Classes
+-Dynamic Storage Duration
+Separate Compilation
+การใช้ make
+การสร้าง Static Library
+การสร้าง Shared (Dynamic) Library
+-Windows
+-MacOSX
+-Linux
+การเรียกใช้ฟังก์ชันใน Shared Library ของภาษา C จาก Python
+    from ctypes import cdll
+    c_lib = cdll.LoadLibrary("libfunc.dll")
+    c_lib.c_functiion(123)
+Random Number Generator

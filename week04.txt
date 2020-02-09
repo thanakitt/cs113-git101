@@ -1,0 +1,20 @@
+Function Definition
+-รูปแบบของฟังก์ชัน
+    return-value-type function-name(parameter-list)
+    {
+        declarations
+
+        statement
+        statement
+        :
+    }
+Function Prototypes
+Standard Library Functions and Math Library Functions
+Return Values
+    return 5;
+    return (x > 5);
+    return (myfunction());
+Using Functions as Parameters to Functions
+Recursion 
+-Local Variables 
+Function Call และ Stack Frames

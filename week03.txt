@@ -1,0 +1,42 @@
+Programming Daradigms
+Statements and Blocks
+    x=0 กลายเป็น x=0;
+    expression กลายเป็น statement
+-If-Else
+    if (expression)
+        statement1
+    else
+        statement2
+-Else-If
+    if (expression1)
+        statement1
+    else if (expression2)
+        statement2
+    else if (expression3)
+        statement3
+    else if (expression4)
+        statement4
+    else 
+        statement5
+-Switch
+    Switch (expression) {
+        case const-expr:
+            statements
+        case const-expr:
+            statements
+        default:
+            statements
+    }
+-Loops - While และ For
+    while (expression)
+        statement
+    for(expr1; expr2; expr3) 
+        statement
+-Loops - Do-While
+    do 
+        statement
+    while (expression);
+-Break และ Continue
+    Break ทำให้หลุดออกมาจากลูป
+    Continue จะบังคับให้ลูปเกิดการวนซ้ำขึ้นมาใหม่
+-Goto และ Label

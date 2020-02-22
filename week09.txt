@@ -1,0 +1,22 @@
+Structure
+-Collections of related varibles under one name.
+-Varibles of may be of different data types.
+-Members of the same structure types must have unique names, but two different structure types may contain members of the same name without conflict
+Structure tag 
+-The structure tag name is optional.
+-If a structure definition does not contain a structure tag name, varibles of the structure type may be declared only in the structure definition-not in a seperate declaraiton
+Self Reference 
+-A structure cannot contain an instance of itself
+-A varible of type struct employee cannot be declared in the definition for struct employee.
+-A pointer to struct employee, may be include.
+Storage in Memory
+-Structures may not be compared using using operaators == and !=
+-Computers may store specific data typee only on certain memory boundaries such as half-word, word or double-word boundaries.
+-A word is a standard memory unit used to store data in a computer-usually 2 bytes or 4 bytes.
+Storage in Memory
+Initialization
+-If there are fewer initializers in the list than membersin the structure
+-Asignment State ment of same struct type
+typedef
+-The keyword typedef is a way to create synonyms (or aliases) for previously defined data types.
+-Names for structure types are often defined with typedef to create shorter type names.

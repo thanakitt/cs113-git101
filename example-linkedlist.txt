@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+typedef struct {
+    int speed;
+    int gas;
+} Car;
+
+void print_car(Car *c) {
+    printf("speed=%d, gas=%d\n", c->speed, c->gas);
+}
+
+int main() {
+    Car car1 = { 60, 3 };
+    Car car2 = { 80, 2 };
+    Car car3 = car1;
+    Car *car4 = &car2;
+
+    car3.gas = 10;
+    car4->speed= 30;
+
+    print_car(&car1);
+    print_car(&car2);
+    print_car(&car3);
+    print_car(car4);
+}
